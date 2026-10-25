@@ -1,0 +1,257 @@
+{
+  "description": "Published empirical recurrences for binary strips with exactly one or at most one occupied horizontal/antidiagonal edge. Coefficients and initial counts are attributed source facts, not newly discovered formulas.",
+  "source_export_commit": "61a45ae71d35453a862da1bc68adfa6e4984411d",
+  "accessed_utc": "2026-10-25",
+  "source_author": "R. H. Hardin",
+  "source_license": "OEIS export: CC BY-SA 4.0; see NOTICE.md.",
+  "families": [
+    {
+      "width": 2,
+      "recurrence_coefficients": [
+        6,
+        -11,
+        6,
+        -1
+      ],
+      "claims": [
+        {
+          "oeis_id": "A268989",
+          "mode": "at_most_one",
+          "offset": 1,
+          "recurrence_starts_at": 5,
+          "initial_terms": [
+            4,
+            13,
+            41,
+            126,
+            379
+          ],
+          "source_url": "https://github.com/oeis/oeisdata/blob/61a45ae71d35453a862da1bc68adfa6e4984411d/seq/A268/A268989.seq"
+        }
+      ]
+    },
+    {
+      "width": 3,
+      "recurrence_coefficients": [
+        10,
+        -31,
+        30,
+        -9
+      ],
+      "claims": [
+        {
+          "oeis_id": "A268881",
+          "mode": "exactly_one",
+          "offset": 1,
+          "recurrence_starts_at": 5,
+          "initial_terms": [
+            2,
+            14,
+            84,
+            462,
+            2418
+          ],
+          "source_url": "https://github.com/oeis/oeisdata/blob/61a45ae71d35453a862da1bc68adfa6e4984411d/seq/A268/A268881.seq"
+        },
+        {
+          "oeis_id": "A268990",
+          "mode": "at_most_one",
+          "offset": 1,
+          "recurrence_starts_at": 5,
+          "initial_terms": [
+            7,
+            35,
+            174,
+            849,
+            4083
+          ],
+          "source_url": "https://github.com/oeis/oeisdata/blob/61a45ae71d35453a862da1bc68adfa6e4984411d/seq/A268/A268990.seq"
+        }
+      ]
+    },
+    {
+      "width": 4,
+      "recurrence_coefficients": [
+        16,
+        -88,
+        200,
+        -208,
+        96,
+        -16
+      ],
+      "claims": [
+        {
+          "oeis_id": "A268882",
+          "mode": "exactly_one",
+          "offset": 1,
+          "recurrence_starts_at": 8,
+          "initial_terms": [
+            5,
+            54,
+            501,
+            4133,
+            31956,
+            236960,
+            1706732,
+            12034000
+          ],
+          "source_url": "https://github.com/oeis/oeisdata/blob/61a45ae71d35453a862da1bc68adfa6e4984411d/seq/A268/A268882.seq"
+        },
+        {
+          "oeis_id": "A268991",
+          "mode": "at_most_one",
+          "offset": 1,
+          "recurrence_starts_at": 8,
+          "initial_terms": [
+            13,
+            103,
+            805,
+            6009,
+            43512,
+            308112,
+            2144780,
+            14730784
+          ],
+          "source_url": "https://github.com/oeis/oeisdata/blob/61a45ae71d35453a862da1bc68adfa6e4984411d/seq/A268/A268991.seq"
+        }
+      ]
+    },
+    {
+      "width": 5,
+      "recurrence_coefficients": [
+        26,
+        -241,
+        994,
+        -2060,
+        2218,
+        -1201,
+        290,
+        -25
+      ],
+      "claims": [
+        {
+          "oeis_id": "A268883",
+          "mode": "exactly_one",
+          "offset": 1,
+          "recurrence_starts_at": 10,
+          "initial_terms": [
+            10,
+            158,
+            2190,
+            27130,
+            317966
+          ],
+          "source_url": "https://github.com/oeis/oeisdata/blob/61a45ae71d35453a862da1bc68adfa6e4984411d/seq/A268/A268883.seq"
+        },
+        {
+          "oeis_id": "A268992",
+          "mode": "at_most_one",
+          "offset": 1,
+          "recurrence_starts_at": 10,
+          "initial_terms": [
+            23,
+            278,
+            3331,
+            37987,
+            421450
+          ],
+          "source_url": "https://github.com/oeis/oeisdata/blob/61a45ae71d35453a862da1bc68adfa6e4984411d/seq/A268/A268992.seq"
+        }
+      ]
+    },
+    {
+      "width": 6,
+      "recurrence_coefficients": [
+        42,
+        -665,
+        5138,
+        -21972,
+        55274,
+        -83769,
+        76202,
+        -40273,
+        11304,
+        -1296
+      ],
+      "claims": [
+        {
+          "oeis_id": "A268884",
+          "mode": "exactly_one",
+          "offset": 1,
+          "recurrence_starts_at": 13,
+          "initial_terms": [
+            20,
+            475,
+            9996,
+            186732,
+            3283890
+          ],
+          "source_url": "https://github.com/oeis/oeisdata/blob/61a45ae71d35453a862da1bc68adfa6e4984411d/seq/A268/A268884.seq"
+        },
+        {
+          "oeis_id": "A268993",
+          "mode": "at_most_one",
+          "offset": 1,
+          "recurrence_starts_at": 13,
+          "initial_terms": [
+            41,
+            763,
+            14080,
+            244397,
+            4097199
+          ],
+          "source_url": "https://github.com/oeis/oeisdata/blob/61a45ae71d35453a862da1bc68adfa6e4984411d/seq/A268/A268993.seq"
+        }
+      ]
+    },
+    {
+      "width": 7,
+      "recurrence_coefficients": [
+        68,
+        -1804,
+        24560,
+        -195400,
+        974752,
+        -3171360,
+        6871936,
+        -9999248,
+        9740096,
+        -6250176,
+        2552576,
+        -621824,
+        79872,
+        -4096
+      ],
+      "claims": [
+        {
+          "oeis_id": "A268885",
+          "mode": "exactly_one",
+          "offset": 1,
+          "recurrence_starts_at": 17,
+          "initial_terms": [
+            38,
+            1340,
+            42362,
+            1187838,
+            31427480
+          ],
+          "source_url": "https://github.com/oeis/oeisdata/blob/61a45ae71d35453a862da1bc68adfa6e4984411d/seq/A268/A268885.seq"
+        },
+        {
+          "oeis_id": "A268994",
+          "mode": "at_most_one",
+          "offset": 1,
+          "recurrence_starts_at": 17,
+          "initial_terms": [
+            72,
+            2037,
+            57287,
+            1506570,
+            38241770
+          ],
+          "source_url": "https://github.com/oeis/oeisdata/blob/61a45ae71d35453a862da1bc68adfa6e4984411d/seq/A268/A268994.seq"
+        }
+      ]
+    }
+  ]
+}
