@@ -1,0 +1,33 @@
+# Checks exact finite-state certificates and independent controls. It does not
+# establish priority, OEIS acceptance, Lean verification, or human review.
+name: Verify recurrence proofs
+
+on: [push, pull_request]
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    strategy:
+      matrix:
+        python-version: ['3.10', '3.14']
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Check recorded hashes
+        run: sha256sum -c SHA256SUMS
+      - name: Rebuild exact proof certificates
+        run: python3 verify.py
+      - name: Verify with the independent model
+        run: python3 verify_independent.py
+      - name: Test exhaustive and broken controls
+        run: python3 -m unittest discover -s tests -v
+      - name: Require unchanged artifacts
+        run: git diff --exit-code
