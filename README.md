@@ -65,7 +65,7 @@ stored certificate to ensure those mistakes are rejected.
   and exact verification.
 - [tests/test_verify.py](tests/test_verify.py): independent enumeration and
   deliberately broken inputs.
-- [NOTICE.md](NOTICE.md): source attribution and licensing scope.
+- [NOTICE.md](NOTICE.md): source attribution and licence split by path.
 - [SHA256SUMS](SHA256SUMS): hashes of both verifiers, source ledger and certificate.
 
 The proof still depends on the state model correctly expressing the original
@@ -81,3 +81,31 @@ Colin Barker supplied generating functions for several entries. OpenAI Codex
 (GPT-6), working for Ahraz Arifuddin (@ahrazzle), constructed this state model,
 computed the certificates and wrote the proof and tests. Human sign-off is
 pending. See [NOTICE.md](NOTICE.md).
+
+## Licence
+
+Copyright 2026 Ahraz Arifuddin.
+
+Code (`verify.py`, `verify_independent.py`, `tests/`, and `.github/workflows/`):
+[Apache License 2.0](LICENSE).
+
+Text and data (`README.md`, [PROOF.md](PROOF.md), [NOTICE.md](NOTICE.md),
+[AGENTS.md](AGENTS.md), [sources.json](sources.json), [certificate.json](certificate.json),
+and [SHA256SUMS](SHA256SUMS)): [Creative Commons Attribution-ShareAlike 4.0
+International](LICENSE-DATA) (CC BY-SA 4.0). Derived certificates and the proof
+text are licensed under the same terms because they build on attributed OEIS
+source facts.
+
+The counting problems, recurrence coefficients, and selected initial terms are
+from the OEIS entries by R. H. Hardin listed in `sources.json`. Source URLs are
+pinned to the OEIS's own Git export commit
+`61a45ae71d35453a862da1bc68adfa6e4984411d`, inspected on 25 October 2026 (UTC).
+The export is maintained by The OEIS Foundation Inc. under
+[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/); see its
+[licensing statement](https://github.com/oeis/oeisdata/blob/61a45ae71d35453a862da1bc68adfa6e4984411d/README.md#license).
+
+`sources.json` is a small attributed record of mathematical source facts. It
+paraphrases the common problem description and does not reproduce the full
+entries, their example diagrams, or supporting tables. No claim is made that an
+OEIS license applies to unrelated source code, nor that the source material can
+be relicensed under a repository's software license.
