@@ -1,0 +1,21 @@
+{
+    "creators": [
+        {
+            "name": "Arifuddin, Ahraz"
+        }
+    ],
+    "title": "Finite-state proofs",
+    "description": "<p>This repository supplies exact, replayable certificates for eleven published recurrences, for strip widths 2 through 7, that count binary rectangular arrays containing exactly one, or at most one, occupied horizontal or antidiagonal edge.</p><p>Status: proposed computer-assisted proofs, checked by exact integer code and small exhaustive enumeration; awaiting human review.</p><p>These are proofs of existing formulas, not new sequences or a claim to have found the first proofs. No OEIS submission has been made.</p><p>Directed by Ahraz Arifuddin</p><p>Researched and verified by different model families across Gemini, Claude, Grok, OpenAI, and Muse</p>",
+    "upload_type": "software",
+    "keywords": [
+        "finite-state-proofs"
+    ],
+    "related_identifiers": [
+        {
+            "identifier": "https://github.com/Foundation-0/finite-state-proofs",
+            "relation": "isSupplementTo",
+            "scheme": "url",
+            "resource_type": "software"
+        }
+    ]
+}
