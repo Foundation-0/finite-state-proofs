@@ -65,7 +65,7 @@ stored certificate to ensure those mistakes are rejected.
   and exact verification.
 - [tests/test_verify.py](tests/test_verify.py): independent enumeration and
   deliberately broken inputs.
-- [NOTICE.md](NOTICE.md): source attribution and licensing scope.
+- [NOTICE.md](NOTICE.md): source attribution and licence split by path.
 - [SHA256SUMS](SHA256SUMS): hashes of both verifiers, source ledger and certificate.
 
 The proof still depends on the state model correctly expressing the original

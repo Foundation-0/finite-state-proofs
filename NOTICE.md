@@ -15,9 +15,11 @@ OEIS license applies to unrelated source code, nor that the source material can
 be relicensed under a repository's software license.
 
 The transfer-model implementation, derived state graphs and residual vectors,
-proof exposition, and tests were written for this project. This research draft
-has no repository-wide license grant yet; the repository owner can choose one
-while preserving the OEIS source attribution.
+proof exposition, and tests were written for this project.
+
+Code (`verify.py`, `verify_independent.py`, `tests/`, and `.github/workflows/`)
+is under the Apache License 2.0 (`LICENSE`). Text, data, and OEIS-derived
+certificates are under CC BY-SA 4.0 (`LICENSE-DATA`).
 
 Transfer matrices and polynomial annihilation are standard methods. This work
 claims explicit certificates for the cited formulas, not invention of those
