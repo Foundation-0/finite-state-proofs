@@ -1,0 +1,1 @@
+python3 -I -O verify.py proofs/A2*.json > logs/verify_all.log 2>&1  557.73s user 4.69s system 100% cpu 9:21.75 total
