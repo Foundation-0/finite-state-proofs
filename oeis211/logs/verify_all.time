@@ -1,0 +1,1 @@
+python3 -I -O verify_all.py  20.76s user 0.15s system 98% cpu 21.210 total

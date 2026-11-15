@@ -1,0 +1,40 @@
+0 2 4 6 ['D'] True True
+1 2 3 3 ['A', 'D', 'H', 'V'] True True
+2 2 3 3 ['A'] True True
+3 3 4 6 ['H', 'V'] True True
+4 2 2 0 ['A'] True True
+5 4 2 1 ['V'] True True
+6 3 3 4 ['D', 'H'] True True
+7 4 2 1 ['A', 'H', 'V'] True True
+8 2 4 5 ['D', 'H', 'V'] True True
+9 4 4 4 ['A', 'D', 'H', 'V'] True True
+10 4 3 4 ['A'] True True
+11 2 4 6 ['A', 'D', 'H', 'V'] True True
+12 4 4 6 ['A', 'H', 'V'] True True
+13 2 4 6 ['A', 'D', 'H', 'V'] True True
+14 2 3 4 ['A', 'D', 'H', 'V'] True True
+15 2 4 6 ['A', 'D'] True True
+16 3 4 2 ['A', 'D', 'H', 'V'] True True
+17 4 4 6 ['A', 'V'] True True
+18 2 3 2 ['A', 'V'] True True
+19 3 3 2 ['D'] True True
+20 3 4 0 ['D', 'V'] True True
+21 4 2 0 ['A', 'D', 'H'] True True
+22 2 2 1 ['D'] True True
+23 2 3 0 ['D', 'V'] True True
+24 2 2 0 ['A', 'D', 'V'] True True
+25 4 4 2 ['A', 'D', 'H', 'V'] True True
+26 2 3 3 ['A', 'H', 'V'] True True
+27 2 3 4 ['A', 'H'] True True
+28 2 2 1 ['D', 'H'] True True
+29 2 3 4 ['A', 'D', 'H', 'V'] True True
+30 4 4 0 ['A', 'D', 'H', 'V'] True True
+31 4 3 1 ['H', 'V'] True True
+32 2 2 1 ['A', 'D', 'V'] True True
+33 2 2 2 ['V'] True True
+34 4 3 1 ['A'] True True
+35 2 3 0 ['A', 'D'] True True
+36 2 3 0 ['A', 'D', 'H', 'V'] True True
+37 3 4 6 ['A', 'D', 'H', 'V'] True True
+38 3 4 6 ['D', 'V'] True True
+39 2 3 0 ['A', 'D', 'H', 'V'] True True
