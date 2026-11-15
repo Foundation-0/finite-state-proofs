@@ -27,6 +27,13 @@ certificate explaining why each recurrence holds for every later index.
 The method also checks the exceptional early indices: for example, applying the
 width-4 recurrence one term too soon gives an error of 4 in both sequences.
 
+## Later results
+
+The same method, run on 211 more OEIS recurrences, is in [FIRST-PASS-211.md](FIRST-PASS-211.md). It also shows that
+the zero-vector test used here is sufficient and not necessary: eight true recurrences need a weaker test.
+[SQUARE-LAW.md](SQUARE-LAW.md) proves why these recurrences are squares and uses that to prove 238 of them, including
+27 that the first method could not reach. The first result above is unchanged.
+
 ## Check it yourself
 
 Python 3.10+; standard library only. No downloads or proof-system installation:
@@ -65,6 +72,9 @@ stored certificate to ensure those mistakes are rejected.
   and exact verification.
 - [tests/test_verify.py](tests/test_verify.py): independent enumeration and
   deliberately broken inputs.
+- [FIRST-PASS-211.md](FIRST-PASS-211.md), [oeis211/](oeis211/): 211 certificates, their verifier and corruption test, a separate spot proof, and the check of which chains reach a zero vector.
+- [SQUARE-LAW.md](SQUARE-LAW.md), [square/](square/): the square law with its proof, 238 certificates, the verifier, the corruption test, the table and saved outputs.
+- [tests/test_square.py](tests/test_square.py), [tests/test_first_pass.py](tests/test_first_pass.py): the verifiers on a sample, the corruption tests, also under `python -O`.
 - [NOTICE.md](NOTICE.md): source attribution and licensing scope.
 - [SHA256SUMS](SHA256SUMS): hashes of both verifiers, source ledger and certificate.
 
